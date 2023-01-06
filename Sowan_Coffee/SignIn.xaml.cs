@@ -29,15 +29,15 @@ namespace Sowan_Coffee
         {
 
         }
-
-        private void BtnClick3(object sender, RoutedEventArgs e)
+        private void BtnSignIn(object sender, RoutedEventArgs e)
         {
             this.NavigationSignIn.Navigate(new Uri("HomePage.xaml", UriKind.Relative));
         }
-
-        private void BtnClick4(object sender, RoutedEventArgs e)
+        private void BtnSignUp(object sender, RoutedEventArgs e)
         {
             this.NavigationSignIn.Navigate(new Uri("SignUp.xaml", UriKind.Relative));
         }
+
+       
     }
 }
