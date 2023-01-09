@@ -59,9 +59,9 @@
                 <TextBlock Foreground="White" Width="110" Height="15" FontFamily="Poppins" Text="with sauce cabonara" FontSize="10" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,191,0,0" FontWeight="Light"></TextBlock>
                 <TextBlock Foreground="#FFB87651" FontSize="14" FontFamily="Inter" FontWeight="Medium" Text="IDR." Margin="12,206,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
                 <TextBlock Foreground="White" FontSize="14" FontFamily="Inter" FontWeight="Medium" Text="15.000" Margin="39,206,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"></TextBlock>
-
-                <Button Width="58" HorizontalAlignment="Right" Margin="0,184,0,21" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="34">
-                    <Image Source="/img/Icon Arrow 2.png" Width="34"/>
+                <Image  HorizontalAlignment="Right" Margin="0,184,10,21" Source="/img/Icon Arrow 2.png" Width="34"/>
+                <Button Width="34" HorizontalAlignment="Right" Margin="0,184,0,21" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="34">
+                    
                 </Button>
             </Grid>
             <Grid Width="181" Height="239" VerticalAlignment="Top" HorizontalAlignment="Right">
@@ -82,9 +82,9 @@
                 <TextBlock Foreground="White" Width="85" Height="15" FontFamily="Poppins" Text="with smoke beef" FontSize="10" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,192,0,0" FontWeight="Light"></TextBlock>
                 <TextBlock Foreground="#FFB87651" FontSize="14" FontFamily="Inter" FontWeight="Medium" Text="IDR." Margin="12,206,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
                 <TextBlock Foreground="White" FontSize="14" FontFamily="Inter" FontWeight="Medium" Text="22.000" Margin="39,206,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"></TextBlock>
-
+                <Image HorizontalAlignment="Right" Margin="0,184,10,21" Source="/img/Icon Arrow 2.png" Width="34"/>
                 <Button Width="58" HorizontalAlignment="Right" Margin="0,184,0,21" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="34">
-                    <Image Source="/img/Icon Arrow 2.png" Width="34"/>
+                    
                 </Button>
             </Grid>
             <Grid Width="181" Height="239" VerticalAlignment="Bottom" HorizontalAlignment="Left">
@@ -105,9 +105,9 @@
                 <TextBlock Foreground="White" Width="77" Height="15" FontFamily="Poppins" Text="with carbonara" FontSize="10" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,192,0,0" FontWeight="Light"></TextBlock>
                 <TextBlock Foreground="#FFB87651" FontSize="14" FontFamily="Inter" FontWeight="Medium" Text="IDR." Margin="12,206,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
                 <TextBlock Foreground="White" FontSize="14" FontFamily="Inter" FontWeight="Medium" Text="25.000" Margin="39,206,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"></TextBlock>
-
+                <Image HorizontalAlignment="Right" Margin="0,184,10,21" Source="/img/Icon Arrow 2.png" Width="34"/>
                 <Button Width="58" HorizontalAlignment="Right" Margin="0,184,0,21" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="34">
-                    <Image Source="/img/Icon Arrow 2.png" Width="34"/>
+                    
                 </Button>
             </Grid>
             <Grid Width="181" Height="239" VerticalAlignment="Bottom" HorizontalAlignment="Right">
@@ -128,9 +128,9 @@
                 <TextBlock Foreground="White" Width="93" Height="15" FontFamily="Poppins" Text="with chesse sauce" FontSize="10" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,192,0,0" FontWeight="Light"></TextBlock>
                 <TextBlock Foreground="#FFB87651" FontSize="14" FontFamily="Inter" FontWeight="Medium" Text="IDR." Margin="12,206,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
                 <TextBlock Foreground="White" FontSize="14" FontFamily="Inter" FontWeight="Medium" Text="18.000" Margin="39,206,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"></TextBlock>
-
+                <Image HorizontalAlignment="Right" Margin="0,184,10,21" Source="/img/Icon Arrow 2.png"  Width="34"/>
                 <Button Width="58" HorizontalAlignment="Right" Margin="0,184,0,21" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="34">
-                    <Image Source="/img/Icon Arrow 2.png" Width="34"/>
+                    
                 </Button>
             </Grid>
         </Grid>

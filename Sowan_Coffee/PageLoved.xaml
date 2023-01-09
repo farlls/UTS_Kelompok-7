@@ -61,7 +61,7 @@
                 <TextBlock Foreground="#FFB87651" FontSize="14" FontFamily="Inter" FontWeight="Medium" Text="IDR." Margin="12,206,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
                 <TextBlock Foreground="White" FontSize="14" FontFamily="Inter" FontWeight="Medium" Text="19.000" Margin="39,206,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"></TextBlock>
                 <Image HorizontalAlignment="Right" Margin="0,163,11,0" Source="/img/Icon Arrow 2.png" Width="34"/>
-                <Button Width="34" HorizontalAlignment="Right" Margin="0,163,11,0" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="34">
+                <Button Width="34" HorizontalAlignment="Right" Margin="0,163,11,0" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="34" Click="Button_Click">
                     
                 </Button>
                 

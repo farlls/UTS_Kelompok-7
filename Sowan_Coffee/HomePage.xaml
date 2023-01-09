@@ -15,7 +15,7 @@
         </DockPanel>
         <Grid Margin="0,61,0,0">
             <TextBlock FontFamily="Inter" FontSize="16" Text="Good Morning" Foreground="White" Margin="33,0,0,0"></TextBlock>
-            <TextBlock x:Name="txtusername"  Margin="33,18,0,0" Foreground="#FFEF9A11" FontFamily="Poppins" FontSize="23" FontWeight="SemiBold" Text="{Binding Path=TextBlockUser}"></TextBlock>
+            <TextBlock x:Name="txtusername"  Margin="33,18,0,0" Foreground="#FFEF9A11" FontFamily="Poppins" FontSize="20" FontWeight="SemiBold" Text="Mau Ngopi Apa Hari ini?"></TextBlock>
             <Image Source="/img/Profile.png" Width="57" Height="52" Margin="311,0,22,0"/>
         </Grid>
         <Grid  Margin="36,33,0,0" Height="228">
@@ -29,28 +29,28 @@
             <Button materialDesign:ButtonAssist.CornerRadius="15" Width="155" Height="46" BorderBrush="#00707070" Background="#41FFF6F6" HorizontalAlignment="Left" Foreground="#FFEF9A11" Margin="0,-15,0,0" FontFamily="Poppins" FontSize="16" FontWeight="Medium" Content="Signature" Click="Button_Click">
                 
             </Button>
-            <Button materialDesign:ButtonAssist.CornerRadius="15" Width="155" Height="46" BorderBrush="#00707070" Background="#41F6F6F6" HorizontalAlignment="Right" Foreground="#FFEF9A11" Margin="0,-15,0,0" FontFamily="Poppins" FontSize="16" FontWeight="Medium" Content="Manual Brew">
+            <Button materialDesign:ButtonAssist.CornerRadius="15" Width="155" Height="46" BorderBrush="#00707070" Background="#41F6F6F6" HorizontalAlignment="Right" Foreground="#FFEF9A11" Margin="0,-15,0,0" FontFamily="Poppins" FontSize="16" FontWeight="Medium" Content="Manual Brew" Click="Button_Click_1">
                 
             </Button>
-            <Button materialDesign:ButtonAssist.CornerRadius="15" Width="155" Height="46" BorderBrush="#00707070" Background="#41F6F6F6" HorizontalAlignment="Left" Foreground="#FFEF9A11" Margin="0,100,0,0" FontFamily="Poppins" FontSize="16" FontWeight="Medium" Content="Non Coffee">
+            <Button materialDesign:ButtonAssist.CornerRadius="15" Width="155" Height="46" BorderBrush="#00707070" Background="#41F6F6F6" HorizontalAlignment="Left" Foreground="#FFEF9A11" Margin="0,100,0,0" FontFamily="Poppins" FontSize="16" FontWeight="Medium" Content="Non Coffee" Click="Button_Click_2">
                 
             </Button>
-            <Button materialDesign:ButtonAssist.CornerRadius="15" Width="155" Height="46" BorderBrush="#00707070" Background="#41F6F6F6" HorizontalAlignment="Right" Foreground="#FFEF9A11" Margin="0,100,0,0" FontFamily="Poppins" FontSize="16" FontWeight="Medium" Content="Coffee Based">
+            <Button materialDesign:ButtonAssist.CornerRadius="15" Width="155" Height="46" BorderBrush="#00707070" Background="#41F6F6F6" HorizontalAlignment="Right" Foreground="#FFEF9A11" Margin="0,100,0,0" FontFamily="Poppins" FontSize="16" FontWeight="Medium" Content="Coffee Based" Click="Button_Click_3">
                 
             </Button>
         </Grid>
         <Grid Width="320" Height="146">
             <TextBlock Foreground="White" Width="66" Height="30" FontFamily="Poppins" FontSize="20" FontWeight="Bold" Text="Foods" Margin="5,5,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"></TextBlock>
-            <Button materialDesign:ButtonAssist.CornerRadius="15" Width="155" Height="46" BorderBrush="#00707070" Background="#41F6F6F6" HorizontalAlignment="Left" Foreground="#FFEF9A11" Margin="0,-15,0,0" FontFamily="Poppins" FontSize="16" FontWeight="Medium" Content="Signature">
+            <Button materialDesign:ButtonAssist.CornerRadius="15" Width="155" Height="46" BorderBrush="#00707070" Background="#41F6F6F6" HorizontalAlignment="Left" Foreground="#FFEF9A11" Margin="0,-15,0,0" FontFamily="Poppins" FontSize="16" FontWeight="Medium" Content="Signature" Click="Button_Click_4">
                 
             </Button>
-            <Button  materialDesign:ButtonAssist.CornerRadius="15"  Width="155" Height="46" BorderBrush="#00707070" Background="#41F6F6F6" HorizontalAlignment="Right" Foreground="#FFEF9A11" Margin="0,-15,0,0" FontFamily="Poppins" FontSize="16" FontWeight="Medium" Content="Sweet Cake">
+            <Button  materialDesign:ButtonAssist.CornerRadius="15"  Width="155" Height="46" BorderBrush="#00707070" Background="#41F6F6F6" HorizontalAlignment="Right" Foreground="#FFEF9A11" Margin="0,-15,0,0" FontFamily="Poppins" FontSize="16" FontWeight="Medium" Content="Sweet Cake" Click="Button_Click_5">
                 
             </Button>
-            <Button materialDesign:ButtonAssist.CornerRadius="15" Width="155" Height="46" BorderBrush="#00707070" Background="#41F6F6F6" HorizontalAlignment="Left" Foreground="#FFEF9A11" Margin="0,100,0,0" FontFamily="Poppins" FontSize="16" FontWeight="Medium" Content="Fast Food">
+            <Button materialDesign:ButtonAssist.CornerRadius="15" Width="155" Height="46" BorderBrush="#00707070" Background="#41F6F6F6" HorizontalAlignment="Left" Foreground="#FFEF9A11" Margin="0,100,0,0" FontFamily="Poppins" FontSize="16" FontWeight="Medium" Content="Fast Food" Click="Button_Click_6">
                
             </Button>
-            <Button materialDesign:ButtonAssist.CornerRadius="15" Width="155" Height="46" BorderBrush="#00707070" Background="#41F6F6F6" HorizontalAlignment="Right" Foreground="#FFEF9A11" Margin="0,100,0,0" FontFamily="Poppins" FontSize="16" FontWeight="Medium" Content="Salad">
+            <Button materialDesign:ButtonAssist.CornerRadius="15" Width="155" Height="46" BorderBrush="#00707070" Background="#41F6F6F6" HorizontalAlignment="Right" Foreground="#FFEF9A11" Margin="0,100,0,0" FontFamily="Poppins" FontSize="16" FontWeight="Medium" Content="Salad" Click="Button_Click_7">
                 
             </Button>
         </Grid>
