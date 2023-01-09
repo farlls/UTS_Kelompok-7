@@ -9,14 +9,20 @@
       mc:Ignorable="d" 
       d:DesignHeight="844" d:DesignWidth="390"
       Title="SignIn" Height="844" Width="390" MaxWidth="390" MaxHeight="844" MinWidth="390" MinHeight="844" Background="#FF0C0F14">
+
+
     <StackPanel >
         <DockPanel>
             <Frame x:Name="NavigationSignIn" NavigationUIVisibility="Hidden" />
         </DockPanel>
         <Image Source="/img/Logo2.png" Width="236" Height="53" Margin="77,100,77,0" HorizontalAlignment="Center"/>
         <TextBlock Text="Sign In" Foreground="White" FontFamily="Poppins" FontSize="20" FontWeight="Medium" Width="68" Margin="68,50,0,0" Padding="0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBox Margin="60,20" x:Name="txtnohpemail" Width="270" FontFamily="Poppins" FontSize="14" materialDesign:HintAssist.Hint="No HP/Email" BorderThickness="1" Style="{DynamicResource MaterialDesignOutlinedTextBox}" Foreground="White" Height="54" BorderBrush="#FFBEBEBE"/>
-        <PasswordBox  Margin="60,5" x:Name="txtpassword" Width="270" FontFamily="Poppins" FontSize="14" materialDesign:HintAssist.Hint="Password" BorderThickness="1" Style="{DynamicResource MaterialDesignOutlinedPasswordBox}" Foreground="White" Height="54" BorderBrush="#FFBEBEBE"/>
+        
+        
+        <TextBox Margin="60,20" x:Name="txtemail" Width="270" FontFamily="Poppins" FontSize="14" materialDesign:HintAssist.Hint="Email" BorderThickness="1" Style="{DynamicResource MaterialDesignOutlinedTextBox}" Foreground="#FF0C0F14" Background="White" Height="54">
+        </TextBox>
+        <PasswordBox  Margin="60,-5,60,5" x:Name="txtpassword" Width="270" FontFamily="Poppins" FontSize="14" materialDesign:HintAssist.Hint="Password" BorderThickness="1" Style="{DynamicResource MaterialDesignOutlinedPasswordBox}" Foreground="#FF0C0F14" Background="White" Height="54"/>
+        
         <Button x:Name="txtsignin" Content="Sign In" Width="270" Height="55" Margin="60,10,60,0" Foreground="White" BorderBrush="#00707070" Background="#FF693D21" FontFamily="Poppins" 
                 FontSize="18" FontWeight="Medium" Click="BtnSignIn" Style="{StaticResource MaterialDesignFlatMidBgButton}" materialDesign:ShadowAssist.ShadowDepth="Depth0" materialDesign:ButtonAssist.CornerRadius="15"/>
         <Grid Width="266" Height="21"  Margin="62,10,62,0">

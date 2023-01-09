@@ -14,13 +14,14 @@
             <Frame x:Name="NavigationSignUp" NavigationUIVisibility="Hidden" />
         </DockPanel>
         <Image Source="/img/Logo2.png" Width="236" Height="53" Margin="77,100,77,0" HorizontalAlignment="Center"/>
-        <TextBlock Text="Sign Up" Foreground="White" FontFamily="Poppins" FontSize="20" FontWeight="Medium" Width="76" Margin="68,50,0,0" Padding="0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBox Margin="20" x:Name="txtnama" Width="270" FontFamily="Poppins" FontSize="14" materialDesign:HintAssist.Hint="Nama" BorderThickness="1" Style="{DynamicResource MaterialDesignOutlinedTextBox}" Foreground="White" Height="54" BorderBrush="#FFBEBEBE"></TextBox>
-        <TextBox Margin="20,0,20,20" x:Name="txtnohp" Width="270" FontFamily="Poppins" FontSize="14" materialDesign:HintAssist.Hint="No HP" BorderThickness="1" Style="{DynamicResource MaterialDesignOutlinedTextBox}" Foreground="White" Height="54" BorderBrush="#FFBEBEBE"></TextBox>
-        <TextBox Margin="20,0,20,20" x:Name="txtemail" Width="270" FontFamily="Poppins" FontSize="14" materialDesign:HintAssist.Hint="Email" BorderThickness="1" Style="{DynamicResource MaterialDesignOutlinedTextBox}" Foreground="White" Height="54" BorderBrush="#FFBEBEBE"></TextBox>
-        <PasswordBox Margin="5" x:Name="txtpassword" Width="270" FontFamily="Poppins" FontSize="14" materialDesign:HintAssist.Hint="Password" BorderThickness="1" Style="{DynamicResource MaterialDesignOutlinedPasswordBox}" Foreground="White" Height="54" BorderBrush="#FFBEBEBE"></PasswordBox>
+        <TextBlock Text="Sign Up" Foreground="white" FontFamily="Poppins" FontSize="20" FontWeight="Medium" Width="76" Margin="68,50,0,0" Padding="0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox Margin="20" x:Name="txtnama" Width="270" FontFamily="Poppins" FontSize="14" materialDesign:HintAssist.Hint="Nama" BorderThickness="1" Style="{StaticResource MaterialDesignOutlinedTextBox}" Foreground="#FF0C0F14" Background="White" Height="54" ></TextBox>
+        <materialDesign:DialogHost />
+        <TextBox Margin="20,0,20,20" x:Name="txtnohp" Width="270" FontFamily="Poppins" FontSize="14" materialDesign:HintAssist.Hint="No HP" BorderThickness="1" Style="{StaticResource MaterialDesignOutlinedTextBox}" Foreground="#FF0C0F14" Background="White" Height="54" ></TextBox>
+        <TextBox Margin="20,0,20,20" x:Name="txtemail" Width="270" FontFamily="Poppins" FontSize="14" materialDesign:HintAssist.Hint="Email" BorderThickness="1" Style="{StaticResource MaterialDesignOutlinedTextBox}" Foreground="#FF0C0F14" Background="White" Height="54" ></TextBox>
+        <PasswordBox Margin="5" x:Name="txtpassword" Width="270" FontFamily="Poppins" FontSize="14" materialDesign:HintAssist.Hint="Password" BorderThickness="1" Style="{StaticResource MaterialDesignOutlinedPasswordBox}" Foreground="#FF0C0F14" Background="White" Height="54" ></PasswordBox>
         <Button x:Name="txtsignup" Content="Sign Up" Width="270" Height="55" Margin="0,15,0,0" Foreground="White" BorderBrush="#00707070" Background="#FF693D21" FontFamily="Poppins" 
-                FontSize="18" FontWeight="Medium" Click="BtnClick5" Style="{StaticResource MaterialDesignFlatMidBgButton}" materialDesign:ShadowAssist.ShadowDepth="Depth0" materialDesign:ButtonAssist.CornerRadius="15"/>
+                FontSize="18" FontWeight="Medium" Click="BtnSignUp" Style="{StaticResource MaterialDesignFlatMidBgButton}" materialDesign:ShadowAssist.ShadowDepth="Depth0" materialDesign:ButtonAssist.CornerRadius="15"/>
         <Grid Height="21" Margin="0,20,0,0" Width="184">
             <TextBlock Height="21" FontFamily="Poppins" FontSize="14" FontWeight="Medium" Text="have an account?" Foreground="Gray" Margin="0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
             <Button Height="29" FontFamily="Poppins" FontSize="14" FontWeight="Medium" Foreground="#FF693D21" Margin="0,-4,-9,-4" HorizontalAlignment="Right" VerticalAlignment="Bottom" Content="Sign In" BorderBrush="#00707070" Background="#00DDDDDD" Width="81" Click="BtnClick6"/>

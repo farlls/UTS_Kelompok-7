@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data.SqlClient;
 
 namespace Sowan_Coffee
 {
@@ -23,6 +24,16 @@ namespace Sowan_Coffee
         public HomePage()
         {
             InitializeComponent();
+            using (SqlConnection connection = new SqlConnection(@"Data Source=FARLLS\SQLEXPRESS;Initial Catalog=sowan_coffee;Integrated Security=True"))
+            {
+                connection.Open();
+                string sql = "SELECT Nama FROM [dbo].[User] WHERE Nama=@Nama";
+                using (SqlCommand command = new SqlCommand(sql, connection))
+                {  
+                    string textBlockUser = (string)command.ExecuteScalar();
+                    txtusername.Text = textBlockUser;
+                }
+            }
         }
 
         private void BtnClick7(object sender, RoutedEventArgs e)
@@ -33,6 +44,11 @@ namespace Sowan_Coffee
         private void BtnClick9(object sender, RoutedEventArgs e)
         {
             this.NavigationHomePage.Navigate(new Uri("MyCart.xaml", UriKind.Relative));
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
