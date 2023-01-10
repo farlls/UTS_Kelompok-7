@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data.SqlClient;
 
 namespace Sowan_Coffee
 {
@@ -23,7 +24,26 @@ namespace Sowan_Coffee
         public PageLoved()
         {
             InitializeComponent();
+            SqlConnection db = new SqlConnection(@"Data Source=ACER\SQLEXPRESS01;Initial Catalog=sowan_coffee;Integrated Security=True");
+            using (db)
+            {
+                db.Open();
+                string Latteart = "SELECT nama FROM [dbo].[MenuCoffee] WHERE ID_MenuCoffee = 'D0001'";
+                string Desk = "SELECT deskripsi FROM [dbo].[MenuCoffee] WHERE ID_MenuCoffee = 'D0001'";
+                using (SqlCommand command = new SqlCommand(Latteart, db))
+                {
+
+                    string LatteArt = (string)command.ExecuteScalar();
+                    latteart.Text = LatteArt;
+                }
+                using (SqlCommand command = new SqlCommand(Desk, db))
+                {
+                    string Deskripsi = (string)command.ExecuteScalar();
+                    deskripsi.Text = Deskripsi;
+                }
+            }
         }
+        
 
         private void BtnClick8(object sender, RoutedEventArgs e)
         {

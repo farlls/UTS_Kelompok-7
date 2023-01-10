@@ -23,8 +23,8 @@
         <Button x:Name="txtsignup" Content="Sign Up" Width="270" Height="55" Margin="0,15,0,0" Foreground="White" BorderBrush="#00707070" Background="#FF693D21" FontFamily="Poppins" 
                 FontSize="18" FontWeight="Medium" Click="BtnSignUp" Style="{StaticResource MaterialDesignFlatMidBgButton}" materialDesign:ShadowAssist.ShadowDepth="Depth0" materialDesign:ButtonAssist.CornerRadius="15"/>
         <Grid Height="21" Margin="0,20,0,0" Width="184">
-            <TextBlock Height="21" FontFamily="Poppins" FontSize="14" FontWeight="Medium" Text="have an account?" Foreground="Gray" Margin="0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-            <Button Height="29" FontFamily="Poppins" FontSize="14" FontWeight="Medium" Foreground="#FF693D21" Margin="0,-4,-9,-4" HorizontalAlignment="Right" VerticalAlignment="Bottom" Content="Sign In" BorderBrush="#00707070" Background="#00DDDDDD" Width="81" Click="BtnClick6"/>
+            <TextBlock Height="21" FontFamily="Poppins" FontSize="14" FontWeight="Medium" Text="have an account?" Foreground="Gray" Margin="-1,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Button Height="29" FontFamily="Poppins" FontSize="14" FontWeight="Medium" Foreground="#FF693D21" Margin="7,-6,-10,-3" HorizontalAlignment="Right" VerticalAlignment="Bottom" Content="Sign In" BorderBrush="#00707070" Background="#00DDDDDD" Width="81" Click="BtnClick6"/>
 
         </Grid>
     </StackPanel>
