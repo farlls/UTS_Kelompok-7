@@ -44,5 +44,6 @@ namespace Sowan_Coffee
         {
             this.NavigationPageLovedFood.Navigate(new Uri("PageLoved.xaml", UriKind.Relative));
         }
+
     }
 }
