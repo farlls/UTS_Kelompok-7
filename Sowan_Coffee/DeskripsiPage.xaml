@@ -22,12 +22,34 @@
             <Image Source="/img/Icon Cart 2.png" Width="37" HorizontalAlignment="Right"></Image>
             
         </Grid>
-        <Image Source="/img/LatteArtDes.png" Width="342" Height="387" Margin="10,30,0,0" />
-        <Grid Margin="0,7,0,0" Width="342" Height="109">
-            <TextBlock Text="Description" Foreground="White" FontFamily="Poppins" FontSize="20" FontWeight="Bold"  ></TextBlock>
-            <TextBlock  Text="      A cappuccino is an espresso-based coffee drink that originated in Austria and was later popularized in Italy and is prepared with steamed milk foam...." Foreground="White" FontFamily="Poppins" FontSize="14" FontWeight="Medium"/>
+        <Image Source="/img/LatteArtDes.png" Width="342" Height="387" Margin="-7,20,0,0" />
+        <Grid Margin="0,5,0,0" Width="343" Height="99">
+            <TextBlock Text="Description" Foreground="White" FontFamily="Poppins" FontSize="24" FontWeight="Bold"  ></TextBlock>
+            <TextBlock TextWrapping="Wrap" Text="      A cappuccino is an espresso-based coffee drink that originated in Austria and was later popularized in Italy and is prepared with steamed milk foam...." Foreground="White" FontFamily="Poppins" FontSize="12" FontWeight="Light" Margin="0,39,3,0"/>
+            <TextBlock Text="Read More" Foreground="#FFEF9A11" FontFamily="Poppins" FontSize="12" FontWeight="Light" Margin="254,75,24,10"/>
         </Grid>
-        <Grid Width="281" Height="57" Margin="0,10,0,0">
+        <Grid Margin="0,2,0,0" Width="342" Height="119">
+            <TextBlock Text="Size" Foreground="White" FontFamily="Poppins" FontSize="24" FontWeight="Bold"  ></TextBlock>
+            <Border BorderBrush="#B87651" BorderThickness="4" CornerRadius="15" Width="66" Height="100" Margin="0,-3,0,0"/>
+            <Image Source="/img/Icon sidebar.png" Width="31" Height="6" VerticalAlignment="Bottom" />
+            <Button BorderBrush="{x:Null}" Width="66" Height="97.3" HorizontalAlignment="Center" >
+                <Button.Background>
+                    <ImageBrush ImageSource="/img/Icon Size large.png"/>
+                </Button.Background>
+            </Button>
+            <Button BorderBrush="{x:Null}" Width="38" Height="58" HorizontalAlignment="Left" Margin="89,30,0,31" >
+                <Button.Background>
+                    <ImageBrush ImageSource="/img/Icon Size small.png"/>
+                </Button.Background>
+            </Button>
+            <Button BorderBrush="{x:Null}" Width="38" Height="58" HorizontalAlignment="Left" Margin="217,30,0,31" >
+                <Button.Background>
+                    <ImageBrush ImageSource="/img/Icon Size medium.png"/>
+                </Button.Background>
+            </Button>
+            
+        </Grid>
+        <Grid Width="281" Height="57" Margin="0,15,0,0">
             <Image Source="/img/Deskripsi 2.png" Width="82" Height="41" HorizontalAlignment="Left" VerticalAlignment="Top" />
             <Button materialDesign:ButtonAssist.CornerRadius="15" Width="175" Height="50" HorizontalAlignment="Right" Background="#FF693D21" BorderBrush="{x:Null}" Foreground="White" FontFamily="Inter" FontSize="18" FontWeight="SemiBold" Content="Add To Cart" VerticalAlignment="Center" Click="BtnClickAtc">
               

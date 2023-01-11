@@ -15,7 +15,7 @@
         </DockPanel>
         <Grid Width="210" Height="29" HorizontalAlignment="Left" Margin="31,42,0,0">
             <Image Source="/img/Icon Arrow 3.png" Width="24" Height="21"  HorizontalAlignment="Left"></Image>
-            <Button Width="31" Height="26" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" HorizontalAlignment="Left">
+            <Button Width="31" Height="26" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" HorizontalAlignment="Left" Click="Button_Click">
                 
             </Button>
             <TextBlock Width="94" HorizontalAlignment="Right" FontFamily="Inter" FontWeight="SemiBold" FontSize="24" Text="My Cart" Foreground="White"></TextBlock>

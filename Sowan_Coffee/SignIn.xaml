@@ -15,7 +15,7 @@
         <DockPanel>
             <Frame x:Name="NavigationSignIn" NavigationUIVisibility="Hidden" />
         </DockPanel>
-        <Image Source="/img/Logo2.png" Width="236" Height="53" Margin="77,100,77,0" HorizontalAlignment="Center"/>
+        <Image Source="/img/Logo2.png" Width="236" Height="53" Margin="77,150,77,0" HorizontalAlignment="Center"/>
         <TextBlock Text="Sign In" Foreground="White" FontFamily="Poppins" FontSize="20" FontWeight="Medium" Width="68" Margin="68,50,0,0" Padding="0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         
         
